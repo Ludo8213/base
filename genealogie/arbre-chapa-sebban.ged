@@ -1,0 +1,114 @@
+0 HEAD
+1 SOUR ClaudeCode
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG French
+0 @I1@ INDI
+1 NAME Ludovic /CHAPA/
+1 SEX M
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Philippe /CHAPA/
+1 SEX M
+1 BIRT
+2 DATE 20 JAN 1949
+2 PLAC Paris 11e, Paris, France
+1 FAMC @F2@
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Martine /SEBBAN/
+1 SEX F
+1 BIRT
+2 DATE 23 OCT 1952
+2 PLAC Oran, Algérie
+1 FAMC @F3@
+1 FAMS @F1@
+0 @I4@ INDI
+1 NAME Roger /CHAPA/
+1 SEX M
+1 BIRT
+2 DATE 1 SEP 1914
+2 PLAC Épernay, Marne, France
+1 DEAT
+2 PLAC Cancale, Ille-et-Vilaine, France
+1 OCCU Coursier à Paris ; entraîneur cycliste à Cancale (retraite)
+1 NOTE Médaille de la Jeunesse et des Sports. Guerre 1939-1945, envoyé en Pologne (captivité ou déportation, à préciser). Articles de presse sur son engagement auprès des jeunes cyclistes.
+1 FAMS @F2@
+0 @I5@ INDI
+1 NAME Odette /MAZELLIER/
+1 SEX F
+1 BIRT
+2 DATE 1918
+2 PLAC Ardennes, France
+1 DEAT
+2 PLAC Cancale, Ille-et-Vilaine, France
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Marcel /SEBBAN/
+1 SEX M
+1 BIRT
+2 DATE BET 1925 AND 1929
+2 PLAC Oran, Algérie
+1 DEAT
+2 DATE JUN 1996
+2 PLAC Amiens, Somme, France
+1 OCCU Employé à la mairie de Paris
+1 FAMC @F4@
+1 FAMS @F3@
+0 @I7@ INDI
+1 NAME Jacqueline /DJIAN/
+1 SEX F
+1 BIRT
+2 DATE 13 MAY 1932
+2 PLAC Tlemcen, Algérie
+1 DEAT
+2 PLAC Ivry-sur-Seine, Val-de-Marne, France
+1 FAMC @F5@
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME Jacob /SEBBAN/
+1 SEX M
+1 NOTE Père de Marcel (à confirmer par l'acte de décès de Marcel). Venu en France.
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Yacout /SMADJA/
+1 SEX F
+1 NOTE Venue en France.
+1 FAMS @F4@
+0 @I10@ INDI
+1 NAME Elie /DJIAN/
+1 SEX M
+1 OCCU Ébéniste à Tlemcen
+1 NOTE Venu en France.
+1 FAMS @F5@
+0 @I11@ INDI
+1 NAME Reine /MEDIONI/
+1 SEX F
+1 NOTE Venue en France.
+1 FAMS @F5@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 MARR
+2 DATE ABT 1939
+2 PLAC Paris ou banlieue parisienne
+1 CHIL @I2@
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I3@
+0 @F4@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 CHIL @I6@
+0 @F5@ FAM
+1 HUSB @I10@
+1 WIFE @I11@
+1 CHIL @I7@
+0 TRLR

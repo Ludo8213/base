@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Arbre généalogique – Chapa / Sebban</title>
+<style>
+  body { font-family: Georgia, serif; background: #faf7f2; color: #2b2b2b; margin: 0; padding: 32px; }
+  h1 { text-align: center; font-weight: normal; letter-spacing: .05em; margin: 0 0 4px; }
+  .sub { text-align: center; color: #777; margin-bottom: 32px; font-size: 14px; }
+  .gen { display: grid; gap: 14px; margin-bottom: 18px; }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  .g2 { grid-template-columns: repeat(2, 1fr); }
+  .g1 { grid-template-columns: 1fr; max-width: 320px; margin-left: auto; margin-right: auto; }
+  .couple { display: flex; gap: 8px; justify-content: center; }
+  .p { background: #fff; border: 1px solid #d9d2c5; border-radius: 6px; padding: 10px 12px; flex: 1; min-width: 0; }
+  .p.m { border-top: 4px solid #4a6c8c; }
+  .p.f { border-top: 4px solid #b0607a; }
+  .p.u { border-top: 4px solid #999; }
+  .n { font-weight: bold; font-size: 15px; }
+  .d { font-size: 12.5px; color: #555; margin-top: 4px; line-height: 1.45; }
+  .q { color: #b07a00; }
+  .label { text-align: center; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; color: #998; margin: 6px 0; }
+  .side { text-align: center; font-size: 13px; color: #777; }
+  .legend { margin-top: 28px; font-size: 13px; color: #666; text-align: center; }
+  @media print { body { background: #fff; } }
+</style>
+</head>
+<body>
+<h1>Famille Chapa – Sebban</h1>
+<div class="sub">Ascendance de Ludovic Chapa · état au 1er novembre 2026</div>
+
+<div class="label">Arrière-grands-parents</div>
+<div class="gen g4">
+  <div class="side">Parents de Roger<br><span class="q">à trouver (acte de naissance, Épernay 1914)</span></div>
+  <div class="side">Parents d'Odette<br><span class="q">à trouver</span></div>
+  <div class="couple">
+    <div class="p m"><div class="n">Jacob Sebban</div><div class="d">Venu en France<br><span class="q">père de Marcel, à confirmer</span></div></div>
+    <div class="p f"><div class="n">Yacout Smadja</div><div class="d">Venue en France</div></div>
+  </div>
+  <div class="couple">
+    <div class="p m"><div class="n">Elie Djian</div><div class="d">Ébéniste à Tlemcen<br>Venu en France</div></div>
+    <div class="p f"><div class="n">Reine Medioni</div><div class="d">Venue en France</div></div>
+  </div>
+</div>
+
+<div class="label">Grands-parents</div>
+<div class="gen g2">
+  <div class="couple">
+    <div class="p m"><div class="n">Roger Chapa</div><div class="d">° 1er sept. 1914, Épernay (Marne)<br>† Cancale (Ille-et-Vilaine)<br>Coursier à Paris · entraîneur cycliste<br>Médaille de la Jeunesse et des Sports<br>Guerre 39-45, envoyé en Pologne</div></div>
+    <div class="p f"><div class="n">Odette Mazellier</div><div class="d">° 1918, Ardennes <span class="q">(commune ?)</span><br>† Cancale (Ille-et-Vilaine)</div></div>
+  </div>
+  <div class="couple">
+    <div class="p m"><div class="n">Marcel Sebban</div><div class="d">° vers 1925-1929, Oran<br>† juin 1996, Amiens (Somme)<br>Employé à la mairie de Paris</div></div>
+    <div class="p f"><div class="n">Jacqueline Djian</div><div class="d">° 13 mai 1932, Tlemcen<br>† Ivry-sur-Seine (Val-de-Marne)</div></div>
+  </div>
+</div>
+<div class="gen g2">
+  <div class="side">mariés vers 1939, Paris ou banlieue</div>
+  <div class="side"></div>
+</div>
+
+<div class="label">Parents</div>
+<div class="gen g1">
+  <div class="couple">
+    <div class="p m"><div class="n">Philippe Chapa</div><div class="d">° 20 janv. 1949, Paris 11e</div></div>
+    <div class="p f"><div class="n">Martine Sebban</div><div class="d">° 23 oct. 1952, Oran</div></div>
+  </div>
+</div>
+
+<div class="label">&nbsp;</div>
+<div class="gen g1">
+  <div class="p m" style="text-align:center"><div class="n">Ludovic Chapa</div></div>
+</div>
+
+<div class="legend">Bleu : homme · Rose : femme · <span class="q">en orange : à vérifier ou à trouver</span><br>
+Informations issues de la mémoire familiale, pas encore vérifiées par des actes.</div>
+</body>
+</html>
